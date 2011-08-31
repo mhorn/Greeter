@@ -5,7 +5,7 @@ int main(int argc, char **argv) {
 	printf("Please enter your name: ");
 	fgets(name, sizeof(name), stdin);
 
-	printf("Hello, wurld!\n");
+	printf("Hello, world!\n");
 	printf("Hello, %s!\n", name);
 	return 0;
 }
